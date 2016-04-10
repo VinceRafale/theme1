@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; *; style-src  &apos;self&apos; &apos;unsafe-inline&apos; *">
+    <title></title>
+
+    <!-- Librerias del theme1 -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/underscore/underscore-min.js"></script>
+    <script src="lib/moment/moment.js"></script>
+    <script src="lib/angular-moment/angular-moment.js"></script>
+    <script src="lib/angular-ios9-uiwebview-patch/angular-ios9-uiwebview-patch.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- Librerias nuestras -->
+
+    <!-- App.js -->
+    <script src="js/app.js"></script>
+
+    <!-- Los de elllos controllers -->
+    <script src="js/common/common.directives.js"></script>
+    <script src="js/auth/auth.controllers.js"></script>
+    <script src="js/app/app.services.js"></script>
+    <script src="js/views.js"></script>
+
+    <!-- Nuestros controllers -->
+    <script src="js/app/controllers/createAccountController.js"></script>
+    <script src="js/app/controllers/checkoutController.js"></script>
+    <script src="js/app/controllers/loginController.js"></script>
+    <script src="js/app/controllers/mainController.js"></script>
+    <script src="js/app/controllers/shopController.js"></script>
+    <script src="js/app/controllers/shoppingCartController.js"></script>
+    <script src="js/app/controllers/AppCtrl.js"></script>
+
+
+  </head>
+  <body ng-app="tickitup">
+      <ion-nav-view></ion-nav-view>
+  </body>
+</html>
