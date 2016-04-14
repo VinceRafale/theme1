@@ -1,5 +1,5 @@
 angular.module('tickitup')
-    .factory('OfertaModel',function(){
+    .factory('OfertaModel',function() {
 
         //############################################
         // Init
@@ -9,14 +9,16 @@ angular.module('tickitup')
         //############################################
         // Constructor
         //############################################
-        OfertaModel.new=function () {
+        OfertaModel.new = function () {
             return {
-                id                  :   "", //BigInt
-                precio              :   "", //Double
-                fecha_inicio        :   "", //DateTime
-                fecha_final         :   "", //DateTime
-                tickets_disponibles :   "", //Integer
-                abierta             :   "" //Boolean
+                id: "", //BigInt
+                precio: "", //Double
+                fecha_inicio: "", //DateTime
+                fecha_final: "", //DateTime
+                tickets_disponibles: "", //Integer
+                abierta: "", //Boolean
+                flyer: "", //String
+                categoriaId: "" //int
             }
         };
 

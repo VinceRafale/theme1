@@ -76,25 +76,55 @@ angular.module('tickitup', [
     }
   })
 
-  .state('app.shop.popular', {
-    url: "/popular",
+  .state('app.shop.diversion', {
+    url: "/diversion",
     views: {
-      'shop-popular': {
+      'shop-diversion': {
         templateUrl: "views/app/shop/shop-diversion.html",
-        controller: 'shopController'
+        controller: 'shopDiversionController'
       }
     }
   })
 
-  .state('app.shop.sale', {
-    url: "/sale",
+  .state('app.shop.mercado', {
+    url: "/mercado",
     views: {
-      'shop-sale': {
+      'shop-mercado': {
         templateUrl: "views/app/shop/shop-mercado.html",
-        controller: 'shopController'
+        controller: 'shopMercadoController'
       }
     }
   })
+
+      .state('app.shop.electrodomesticos', {
+        url: "/electrodomesticos",
+        views: {
+          'shop-electrodomesticos': {
+            templateUrl: "views/app/shop/shop-electrodomesticos.html",
+            controller: 'shopElectrodomesticosController'
+          }
+        }
+      })
+
+      .state('app.shop.restaurante', {
+        url: "/restaurante",
+        views: {
+          'shop-restaurante': {
+            templateUrl: "views/app/shop/shop-restaurante.html",
+            controller: 'shopRestauranteController'
+          }
+        }
+      })
+
+      .state('app.shop.salud', {
+        url: "/salud",
+        views: {
+          'shop-salud': {
+            templateUrl: "views/app/shop/shop-salud.html",
+            controller: 'shopSaludController'
+          }
+        }
+      })
 
   .state('app.cart', {
     url: "/cart",
@@ -131,7 +161,7 @@ angular.module('tickitup', [
     views: {
       'menuContent': {
         templateUrl: "views/app/shop/product-detail.html",
-        controller: 'ProductCtrl'
+        controller: 'productController'
       }
     }
   })

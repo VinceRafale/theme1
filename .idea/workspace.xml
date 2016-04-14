@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba4e000-d9ef-4f23-a219-b52d605ceada" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/app/directives/logoutDirective.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -14,6 +15,35 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/side-menu.html" afterPath="$PROJECT_DIR$/www/views/app/side-menu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/auth/create-account.html" afterPath="$PROJECT_DIR$/www/views/auth/create-account.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/auth/login.html" afterPath="$PROJECT_DIR$/www/views/auth/login.html" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/databases/ofertas.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/app/controllers/productController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/app/controllers/shopDiversionController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/app/controllers/shopElectrodomesticosController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/app/controllers/shopMercadoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/app/controllers/shopRestaurantesController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/app/controllers/shopSaludController.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/app/controllers/shopController.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app/app.services.js" afterPath="$PROJECT_DIR$/www/js/app/app.services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app/controllers/shoppingCartController.js" afterPath="$PROJECT_DIR$/www/js/app/controllers/shoppingCartController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app/models/OfertaModel.js" afterPath="$PROJECT_DIR$/www/js/app/models/OfertaModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app/services/OfertaService.js" afterPath="$PROJECT_DIR$/www/js/app/services/OfertaService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/common/common.directives.js" afterPath="$PROJECT_DIR$/www/js/common/common.directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/views.js" afterPath="$PROJECT_DIR$/www/js/views.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/shop/cart.html" afterPath="$PROJECT_DIR$/www/views/app/shop/cart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/shop/partials/add-to-cart-popup.html" afterPath="$PROJECT_DIR$/www/views/app/shop/partials/add-to-cart-popup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/shop/product-detail.html" afterPath="$PROJECT_DIR$/www/views/app/shop/product-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/shop/shop-diversion.html" afterPath="$PROJECT_DIR$/www/views/app/shop/shop-diversion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/shop/shop-electrodomesticos.html" afterPath="$PROJECT_DIR$/www/views/app/shop/shop-electrodomesticos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/shop/shop-mercado.html" afterPath="$PROJECT_DIR$/www/views/app/shop/shop-mercado.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/shop/shop-restaurante.html" afterPath="$PROJECT_DIR$/www/views/app/shop/shop-restaurante.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/shop/shop-salud.html" afterPath="$PROJECT_DIR$/www/views/app/shop/shop-salud.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/shop/shop.html" afterPath="$PROJECT_DIR$/www/views/app/shop/shop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/app/side-menu.html" afterPath="$PROJECT_DIR$/www/views/app/side-menu.html" />
+>>>>>>> origin/master
     </list>
     <ignored path="theme1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,6 +63,7 @@
     <favorites_list name="theme1" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="create-account.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/views/auth/create-account.html">
@@ -59,11 +90,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.659091">
               <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="common.directives.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/common/common.directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> origin/master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AppCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/app/controllers/AppCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,11 +152,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.0675673">
               <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+>>>>>>> origin/master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/views/auth/login.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,6 +180,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="34" column="98" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="98" />
+=======
+      <file leaf-file-name="views.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/views.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+>>>>>>> origin/master
               <folding />
             </state>
           </provider>
@@ -143,7 +198,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+<<<<<<< HEAD
         <option value="tsconfig.json" />
+=======
+>>>>>>> origin/master
         <option value="JavaScript File" />
       </list>
     </option>
@@ -162,24 +220,56 @@
         <option value="$PROJECT_DIR$/www/js/app/models/Categoria.js" />
         <option value="$PROJECT_DIR$/www/js/app/services/CategoriaService.js" />
         <option value="$PROJECT_DIR$/www/js/app/models/CategoriaModel.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/www/js/app/models/OfertaModel.js" />
         <option value="$PROJECT_DIR$/www/js/app/models/TicketModel.js" />
         <option value="$PROJECT_DIR$/www/js/app/services/OfertaService.js" />
         <option value="$PROJECT_DIR$/www/js/app/services/TicketService.js" />
         <option value="$PROJECT_DIR$/www/js/app/controllers/shopController.js" />
+=======
+        <option value="$PROJECT_DIR$/www/js/app/models/ClienteModel.js" />
+        <option value="$PROJECT_DIR$/www/js/app/models/TicketModel.js" />
+        <option value="$PROJECT_DIR$/www/js/app/services/ClienteService.js" />
+        <option value="$PROJECT_DIR$/www/js/app/services/TicketService.js" />
+        <option value="$PROJECT_DIR$/www/js/app/controllers/createAccountController.js" />
+>>>>>>> origin/master
         <option value="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" />
         <option value="$PROJECT_DIR$/www/views/app/shop/shop-home.html" />
-        <option value="$PROJECT_DIR$/www/js/app/controllers/shoppingCartController.js" />
         <option value="$PROJECT_DIR$/www/js/app/app.controllers.js" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/www/js/app/controllers/AppCtrl.js" />
+>>>>>>> origin/master
         <option value="$PROJECT_DIR$/www/views/auth/main.html" />
-        <option value="$PROJECT_DIR$/www/views/app/shop/shop.html" />
         <option value="$PROJECT_DIR$/www/views/app/shop/partials/shop-salud.html" />
-        <option value="$PROJECT_DIR$/www/views/app/shop/shop-salud.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/views/app/shop/shop-restaurante.html" />
-        <option value="$PROJECT_DIR$/www/views/app/shop/shop-electrodomesticos.html" />
+        <option value="$PROJECT_DIR$/www/js/app/controllers/productController.js" />
+        <option value="$PROJECT_DIR$/www/js/app/controllers/shoppingCartController.js" />
+        <option value="$PROJECT_DIR$/www/views/app/shop/shipping-address.html" />
+        <option value="$PROJECT_DIR$/www/views/app/shop/partials/add-to-cart-popup.html" />
+        <option value="$PROJECT_DIR$/www/views/app/shop/cart.html" />
+        <option value="$PROJECT_DIR$/www/css/ionic.app.css" />
+        <option value="$PROJECT_DIR$/www/views/app/shop/shop.html" />
         <option value="$PROJECT_DIR$/www/views/app/shop/shop-diversion.html" />
+        <option value="$PROJECT_DIR$/www/views/app/shop/shop-electrodomesticos.html" />
+        <option value="$PROJECT_DIR$/www/views/app/shop/shop-mercado.html" />
+        <option value="$PROJECT_DIR$/www/views/app/shop/shop-restaurante.html" />
+        <option value="$PROJECT_DIR$/www/views/app/shop/shop-salud.html" />
+        <option value="$PROJECT_DIR$/www/views/app/shop/product-detail.html" />
+        <option value="$PROJECT_DIR$/www/js/app/models/OfertaModel.js" />
+        <option value="$PROJECT_DIR$/www/js/app/controllers/shopController.js" />
+        <option value="$PROJECT_DIR$/www/js/app/services/OfertaService.js" />
+        <option value="$PROJECT_DIR$/www/js/app/controllers/shopSaludController.js" />
+        <option value="$PROJECT_DIR$/www/js/app/controllers/shopDiversionController.js" />
+        <option value="$PROJECT_DIR$/www/js/app/controllers/shopElectrodomesticosController.js" />
+        <option value="$PROJECT_DIR$/www/js/app/controllers/shopMercadoController.js" />
+        <option value="$PROJECT_DIR$/www/js/app/controllers/shopRestaurantesController.js" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/databases/ofertas.json" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/views/app/side-menu.html" />
+        <option value="$PROJECT_DIR$/www/js/app/app.services.js" />
         <option value="$PROJECT_DIR$/www/js/views.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/www/views/auth/create-account.html" />
         <option value="$PROJECT_DIR$/www/databases/clientes.json" />
         <option value="$PROJECT_DIR$/www/views/auth/login.html" />
@@ -191,6 +281,9 @@
         <option value="$PROJECT_DIR$/www/views/app/side-menu.html" />
         <option value="$PROJECT_DIR$/www/js/app/services/ClienteService.js" />
         <option value="$PROJECT_DIR$/www/js/app/controllers/AppCtrl.js" />
+=======
+        <option value="$PROJECT_DIR$/www/js/common/common.directives.js" />
+>>>>>>> origin/master
       </list>
     </option>
   </component>
@@ -205,10 +298,17 @@
     </gulpfiles>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1942" />
     <option name="height" value="1042" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+>>>>>>> origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -366,6 +466,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -388,6 +489,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+=======
+>>>>>>> origin/master
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -406,6 +509,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -415,6 +519,9 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="directives" />
+=======
+              <option name="myItemId" value="databases" />
+>>>>>>> origin/master
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,6 +539,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -441,6 +549,9 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+=======
+              <option name="myItemId" value="css" />
+>>>>>>> origin/master
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,7 +561,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../theme1-raw" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> origin/master
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -459,6 +574,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\ProyectoMoviles\theme1\www\js\app\controllers" />
+      <recent name="C:\Users\ASUS\Documents\ProyectoMoviles\theme1\www\databases" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -536,14 +652,19 @@
       <workItem from="1460133480679" duration="14434000" />
       <workItem from="1460153081702" duration="1090000" />
       <workItem from="1460154194708" duration="2801000" />
-      <workItem from="1460317208833" duration="2697000" />
+      <workItem from="1460317208833" duration="12716000" />
+      <workItem from="1460335220408" duration="4326000" />
+      <workItem from="1460412167688" duration="3349000" />
+      <workItem from="1460485465548" duration="11016000" />
+      <workItem from="1460657089306" duration="7376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36118000" />
+    <option name="totallyTimeSpent" value="72204000" />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -555,6 +676,20 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23731343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33060557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -603,6 +738,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/views/app/shop/shop-mercado.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -614,86 +750,168 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+=======
+    <entry file="file://$PROJECT_DIR$/www/views/app/profile/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/sample_images/1.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/shipping-address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="24" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/angular/angular.js">
+    <entry file="file://$PROJECT_DIR$/www/views/auth/create-account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="54" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/auth/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/auth/forgot-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="14" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/auth/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/common/pre-img.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/app/shop/product-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/angular-ui-router/src/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1371" column="9" selection-start-line="1371" selection-start-column="9" selection-end-line="1371" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/app/partials/post-card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="39" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/views/app/shop/cart.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1371" column="9" selection-start-line="1371" selection-start-column="9" selection-end-line="1371" selection-end-column="9" />
+=======
+        <state relative-caret-position="323">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/shop-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+=======
+        <state relative-caret-position="374">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="52" />
+          <folding />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/shop-electrodomesticos.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app/app.services.js">
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/shop-mercado.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/app/legal/legal-notice.html">
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/shop-restaurante.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/common/show-hide-password.html">
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/product-detail.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="272">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/app/legal/terms-of-service.html">
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/shop-salud.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/app/legal/privacy-policy.html">
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/partials/add-to-cart-popup.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
         </state>
@@ -703,25 +921,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+=======
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app/services/TicketService.js">
+    <entry file="file://$PROJECT_DIR$/www/databases/ofertas.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/shopController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/common/multi-bg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/shop-diversion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/app/shop/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+=======
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app/services/CategoriaService.js">
+    <entry file="file://$PROJECT_DIR$/www/css/ionic.app.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+=======
+        <state relative-caret-position="278">
+          <caret line="9393" column="5" selection-start-line="9393" selection-start-column="1" selection-end-line="9393" selection-end-column="5" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app/models/CategoriaModel.js">
+    <entry file="file://$PROJECT_DIR$/www/views/app/side-menu.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
@@ -731,32 +999,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+=======
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app/models/TicketModel.js">
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/AppCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/checkoutController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/createAccountController.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+=======
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/angular-moment/angular-moment.js">
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/loginController.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="178" column="39" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
+=======
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="18" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app/controllers/mainController.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+=======
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="18" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic.project">
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/productController.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -876,58 +1184,203 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <marker date="1460413893397" expanded="true" signature="1336:1354" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/shopDiversionController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/shopElectrodomesticosController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/shopMercadoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/shoppingCartController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/shopRestaurantesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/controllers/shopSaludController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/models/CategoriaModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/models/ClienteModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/models/OfertaModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/models/TicketModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/services/CategoriaService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app/services/ClienteService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="16" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/views/auth/create-account.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.970589">
           <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/www/js/app/services/OfertaService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/js/app/controllers/createAccountController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/www/js/app/services/TicketService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="16" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/views/auth/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.6470585">
           <caret line="38" column="99" selection-start-line="38" selection-start-column="99" selection-end-line="38" selection-end-column="99" />
+=======
+    <entry file="file://$PROJECT_DIR$/ionic.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/js/common/common.directives.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.2995284">
           <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/views/app/side-menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0405405">
           <caret line="32" column="104" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
+=======
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0675673">
           <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+=======
+    <entry file="file://$PROJECT_DIR$/www/js/app/app.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/js/app/directives/logoutDirective.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -943,30 +1396,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.659091">
           <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" column="40" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/js/app/services/ClienteService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="98" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="98" />
+=======
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/js/app/controllers/loginController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/www/js/views.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/js/app/controllers/AppCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5872642">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+=======
+    <entry file="file://$PROJECT_DIR$/www/js/common/common.directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
