@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; *; style-src  &apos;self&apos; &apos;unsafe-inline&apos; *">
+    <meta http-equiv="Content-Security-Policy" content="default-src * ; script-src &apos;self&apos; &apos;unsafe-inline&apos;
+                                          &apos;unsafe-eval&apos; *; style-src  &apos;self&apos; &apos;unsafe-inline&apos; *">
+
     <title></title>
 
     <!-- Librerias del theme1 -->
@@ -36,6 +38,15 @@
     <script src="js/app/controllers/shoppingCartController.js"></script>
     <script src="js/app/controllers/AppCtrl.js"></script>
 
+    <!-- Nuestros models -->
+    <script src="js/app/models/ClienteModel.js"></script>
+
+
+    <!-- Nuestros services -->
+    <script src="js/app/services/ClienteService.js"></script>
+
+    <!-- Nuestros directives -->
+    <script src="js/app/directives/logoutDirective.js"></script>
 
   </head>
   <body ng-app="tickitup">
