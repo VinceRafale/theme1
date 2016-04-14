@@ -1,8 +1,8 @@
 angular.module('tickitup')
-    .controller('shoppingCartController', function($scope, ShopService, $ionicActionSheet, _) {
-        $scope.products = ShopService.getCartProducts();
+    .controller('shoppingCartController', function($scope, OfertaService, $ionicActionSheet, _) {
+        $scope.ofertas = OfertaService.getCartOfertas();
 
-        $scope.removeProductFromCart = function(product) {
+        $scope.removeOfertaFromCart = function(oferta) {
             $ionicActionSheet.show({
                 destructiveText: 'Remove from cart',
                 cancelText: 'Cancel',
@@ -10,15 +10,15 @@ angular.module('tickitup')
                     return true;
                 },
                 destructiveButtonClicked: function() {
-                    ShopService.removeProductFromCart(product);
-                    $scope.products = ShopService.getCartProducts();
+                    OfertaService.removeOfertaFromCart(oferta);
+                    $scope.ofertas = OfertaService.getCartOfertas();
                     return true;
                 }
             });
         };
 
         $scope.getSubtotal = function() {
-            return _.reduce($scope.products, function(memo, product){ return memo + product.price; }, 0);
+            return _.reduce($scope.ofertas, function(memo, oferta){ return memo + oferta.precio; }, 0);
         };
 
     })

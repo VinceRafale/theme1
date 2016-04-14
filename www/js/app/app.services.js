@@ -1,4 +1,4 @@
-angular.module('your_app_name.app.services', [])
+angular.module('tickitup.app.services', [])
 
 .service('AuthService', function (){
 
@@ -19,7 +19,7 @@ angular.module('your_app_name.app.services', [])
   this.getUserDetails = function(userId){
     var dfd = $q.defer();
 
-    $http.get('database.json').success(function(database) {
+    $http.get('ofertas.json').success(function(database) {
       //find the user
       var user = _.find(database.users, function(user){ return user._id == userId; });
       dfd.resolve(user);
@@ -31,7 +31,7 @@ angular.module('your_app_name.app.services', [])
   this.getUserPosts = function(userId){
     var dfd = $q.defer();
 
-    $http.get('database.json').success(function(database) {
+    $http.get('ofertas.json').success(function(database) {
 
       //get user posts
       var userPosts =  _.filter(database.posts, function(post){ return post.userId == userId; });
@@ -56,7 +56,7 @@ angular.module('your_app_name.app.services', [])
   this.getUserLikes = function(userId){
     var dfd = $q.defer();
 
-    $http.get('database.json').success(function(database) {
+    $http.get('ofertas.json').success(function(database) {
       //get user likes
       //we will get all the posts
       var slicedLikes = database.posts.slice(0, 4);
@@ -85,7 +85,7 @@ angular.module('your_app_name.app.services', [])
         totalPages = 1,
         dfd = $q.defer();
 
-    $http.get('database.json').success(function(database) {
+    $http.get('ofertas.json').success(function(database) {
 
       totalPosts = database.posts.length;
       totalPages = totalPosts/pageSize;
@@ -113,7 +113,7 @@ angular.module('your_app_name.app.services', [])
 
   this.getProducts = function(){
     var dfd = $q.defer();
-    $http.get('database.json').success(function(database) {
+    $http.get('ofertas.json').success(function(database) {
       dfd.resolve(database.products);
     });
     return dfd.promise;
@@ -121,7 +121,7 @@ angular.module('your_app_name.app.services', [])
 
   this.getProduct = function(productId){
     var dfd = $q.defer();
-    $http.get('database.json').success(function(database) {
+    $http.get('ofertas.json').success(function(database) {
       var product = _.find(database.products, function(product){ return product._id == productId; });
 
       dfd.resolve(product);
