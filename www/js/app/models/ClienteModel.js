@@ -9,7 +9,8 @@ angular.module('tickitup')
         //############################################
         // Constructor
         //############################################
-        ClienteModel.new=function () {
+
+        ClienteModel.new = function () {
             return {
                 no_id                   :   "", //BigInt
                 username                :   "", //Text
@@ -21,10 +22,6 @@ angular.module('tickitup')
             }
         };
 
-        //############################################
-        // Functions
-        //############################################
-        
-        
+        return ClienteModel ;
         
     });

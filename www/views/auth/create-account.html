@@ -26,25 +26,40 @@
             <div class="row multi-inputs">
               <div class="col">
                 <label class="item item-input">
-                  <input class="multi-input" type="text" placeholder="Name" name="name" ng-model="user.name" required>
+                  <input class="multi-input" type="text" placeholder="Nombre" name="name" ng-model="cliente.nombre" required>
                 </label>
               </div>
               <div class="col">
                 <label class="item item-input">
-                  <input class="multi-input" type="text" placeholder="Username" name="username" ng-model="user.userName" required>
+                  <input class="multi-input" type="text" placeholder="CC / TI / Pasaporte"
+                         name="no_id" ng-model="cliente.no_id" required>
                 </label>
               </div>
             </div>
+
             <label class="item item-input">
-              <input type="email" placeholder="Email" name="email" ng-model="user.email" required>
+              <input type="email" placeholder="Email" name="email" ng-model="cliente.email" required>
             </label>
             <label class="item item-input">
-              <input type="tel" placeholder="Phone Number" name="phone" ng-model="user.phone" required>
+              <input type="text" placeholder="Username" name="username" ng-model="cliente.username"  required>
             </label>
+
             <label class="item item-input" show-hide-container>
-              <input type="password" placeholder="Password" name="password" ng-model="user.password" required show-hide-input>
+              <input type="password" placeholder="Password" name="password" ng-model="cliente.password" required show-hide-input>
             </label>
-            <button type="submit" class="sign-up button button-block" ng-click="doSignUp()" ng-disabled="signup_form.$invalid">
+
+                <label class="item item-input item-select">
+                  <div class="input-label">
+                    Genero
+                  </div>
+                  <select ng-model="cliente.genero">
+                    <option>M</option>
+                    <option>F</option>
+                  </select>
+                </label>
+
+
+            <button type="submit" class="sign-up button button-block" ng-click="signUp()">
               Sign Up
             </button>
             <p ng-show="error" class="message error">{{error}}</p>
