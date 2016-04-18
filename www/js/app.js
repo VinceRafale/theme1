@@ -74,6 +74,16 @@ angular.module('tickitup', [
     }
   })
 
+      .state('app.payment', {
+        url: "/payment",
+        views: {
+          'menuContent': {
+            templateUrl: "views/app/shop/shipping-address.html",
+            controller: 'paymentController'
+          }
+        }
+      })
+
   .state('app.shop', {
     url: "/shop",
     abstract: true,
@@ -150,16 +160,6 @@ angular.module('tickitup', [
       'menuContent': {
         templateUrl: "views/app/shop/cart.html",
         controller: 'shoppingCartController'
-      }
-    }
-  })
-
-  .state('app.shipping-address', {
-    url: "/shipping-address",
-    views: {
-      'menuContent': {
-        templateUrl: "views/app/shop/shipping-address.html",
-        controller: "CheckoutCtrl"
       }
     }
   })

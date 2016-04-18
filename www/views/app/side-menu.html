@@ -1,7 +1,8 @@
 <ion-side-menus enable-menu-with-back-views="false">
   <!--<ion-side-menu-content style="background: url(partials/menu-bg.jpeg); background-size: cover;">-->
   <ion-side-menu-content>
-    <ion-nav-bar ng-class="{'profile-color': ('app.profile' | includedByState),  'product-color': ('app.product-detail' | includedByState), 'feed-color': ('app.misCompras' | includedByState), 'settings-color': ('app.qr' | includedByState),  'shop-color': ('app.shop' | includedByState), 'cart-color': ('app.cart' | includedByState), 'shipping-address-color': ('app.shipping-address' | includedByState), 'checkout-color': ('app.checkout' | includedByState)}">
+    <ion-nav-bar ng-class="{'profile-color': ('app.profile' | includedByState),  'product-color': ('app.product-detail' | includedByState), 'feed-color': ('app.misCompras' | includedByState), 'settings-color': ('app.qr' | includedByState),  'shop-color': ('app.shop' | includedByState), 'cart-color': ('app.cart' | includedByState), 'shipping-address-color': ('app.payment' | includedByState), 'checkout-color': ('app.checkout' | includedByState)}">
+
       <ion-nav-back-button>
       </ion-nav-back-button>
       <ion-nav-buttons side="left">
@@ -25,7 +26,6 @@
                   </pre-img>
                 </div>
                 <h2 class="menu-text"><font color="black">{{loggedUser.name}}</font></h2>
-              </ion-item>
             </ion-list>
           </div>
         </div>
@@ -41,6 +41,9 @@
               <ion-item ui-sref-active="active" class="item-icon-left" menu-toggle="left" ui-sref="app.cart">
                 <h2 class="menu-text"><font color="black"><i class="menu-icon icon ion-ios-cart"></i>Shopping cart</font></h2>
               </ion-item>
+                <ion-item ui-sref-active="active" class="item-icon-left" menu-close ui-sref="app.payment">
+                    <h2 class="menu-text"><font color="black"> <i class="menu-icon icon ion-social-usd-outline"></i>Payment</font></h2>
+                </ion-item>
               <ion-item ui-sref-active="active" class="item-icon-left" menu-close ng-click="doLogout()">
                 <h2 class="menu-text"><font color="black"> <i class="menu-icon icon ion-ios-close-outline"></i>Sign Out</font></h2>
               </ion-item>

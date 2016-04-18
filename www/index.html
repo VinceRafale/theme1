@@ -20,6 +20,12 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
+    <!-- Librerias nuestras -->
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <script type="text/javascript">
+      Stripe.setPublishableKey('pk_test_KPFH9OaadbqIwnn9uV3xfLg4');
+    </script>
+
     <!-- App.js -->
     <script src="js/app.js"></script>
 
@@ -44,6 +50,7 @@
     <script src="js/app/controllers/shopSaludController.js"></script>
     <script src="js/app/controllers/misComprasController.js"></script>
     <script src="js/app/controllers/qrCodeController.js"></script>
+    <script src="js/app/controllers/paymentController.js"></script>
 
 
     <!-- Nuestros services -->
@@ -63,6 +70,7 @@
     <script src="js/app/services/ClienteService.js"></script>
 
     <!-- Nuestros directives -->
+
     <script src="js/app/directives/logoutDirective.js"></script>
     <script src="js/app/directives/qrCodeDirective.js"></script>
 

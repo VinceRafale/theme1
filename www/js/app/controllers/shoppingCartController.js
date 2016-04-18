@@ -21,4 +21,19 @@ angular.module('tickitup')
             return _.reduce($scope.ofertas, function(memo, oferta){ return memo + oferta.precio; }, 0);
         };
 
+        $scope.doCheckout = function(){
+            var jsonBody = JSON.stringify({oferta:$scope.oferta[0] ,
+                                            amount:$scope.getSubtotal(),
+                                            userid:ClienteService.getLoggedClient().clienteId}) ;
+            OfertaService.buyTickets( jsonBody ).then(
+                function(success){
+
+                }
+                ,function(err){
+
+                }
+            );
+        }
+
+
     })

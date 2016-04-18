@@ -49,8 +49,8 @@
         <span class="checkout-total-price section-action">${{ getSubtotal() }} USD</span>
       </div>
       <div class="row padding">
-        <button class="button button-block button-energized checkout-btn" ui-sref="app.shipping-address">
-          Continue to Checkout
+        <button class="button button-block button-energized checkout-btn" ng-click="doCheckout()">
+          Confirm buy!
         </button>
       </div>
     </div>
