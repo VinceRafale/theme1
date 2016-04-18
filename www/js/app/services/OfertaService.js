@@ -1,11 +1,12 @@
 angular.module('tickitup')
-    .factory('OfertaService',function($state, $http, $q, _){
+    .factory('OfertaService',function($state, $http, $q, _,ClienteService){
 
         //############################################
         // Init
         //############################################
         var OfertaService = {};
-
+        var endpoint = 'http://localhost:3000/api';
+        var currentClient= ClienteService.getLoggedClient();
         //############################################
         // Functions
         //############################################
@@ -62,6 +63,11 @@ angular.module('tickitup')
             var new_cart_ofertas = _.reject(cart_ofertas, function(oferta){ return oferta.id == ofertaToRemove.id; });
 
             window.localStorage.ionTheme1_cart = JSON.stringify(new_cart_ofertas);
+        };
+
+
+        OfertaService.buyTickets = function( jsonBody ){
+            return $http.post(endpoint + '/oferta/buyTickets?access_token='+currentClient.accessToken, jsonBody);
         };
 
         return OfertaService;

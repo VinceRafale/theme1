@@ -30,9 +30,17 @@ angular.module('tickitup')
             return $http.post( endpoint+'/clientes/login' , user );
         }
 
+        /**
+         *  Realiza el logout del cliente acutual
+         * @returns {HttpPromise}
+         */
         ClienteService.logoutCliente = function(){
-            var currentClient = ClienteService.getLoggedClient();
-            return $http.post( endpoint+'/clientes/logout?access_token='+currentClient.accessToken );
+            return $http.post( endpoint+'/clientes/logout?access_token='+this.getLoggedClient().accessToken );
+        }
+
+        ClienteService.createCard = function(body){
+            console.log(this.getLoggedClient().accessToken)
+            return $http.post( endpoint + '/clientes/createCard?access_token='+this.getLoggedClient().accessToken , body );
         }
 
         //############################################
