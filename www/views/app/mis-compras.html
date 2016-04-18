@@ -1,0 +1,21 @@
+<ion-view view-title="Mis Compras" class="mis-compras-view">
+    <ion-content>
+        <div class="row shop-products-narrow-cards-outer">
+            <div ng-repeat="ticket in compras" class="col col-50 shop-product-narrow-card" ui-sref="app.qr({ticketId: ticket.id})">
+                <div class="list card">
+                    <div class="item item-image">
+                        <pre-img ratio="_1_1" helper-class="main-image">
+                            <img src="views/qr_code_txt.png">
+                            <!--<img ng-src="{{oferta.flyer}}" spinner-on-load>-->
+                            <!--<img src="http://res.cloudinary.com/dbxwbutmm/image/upload/v1457309189/8.jpg">-->
+                        </pre-img>
+                    </div>
+                    <div class="item item-body">
+                        <h2 class="card-title">{{"Mi ticket"}}</h2>
+                        <p class="card-description"><b>${{ticket.costoTotal}}</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

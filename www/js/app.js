@@ -43,8 +43,26 @@ angular.module('tickitup', [
     controller: 'AppCtrl'
   })
       
-      
-      
+      .state('app.misCompras', {
+        url:"/mis-compras",
+        views: {
+          'menuContent': {
+            templateUrl: "views/app/mis-compras.html",
+            controller: 'misComprasController'
+          }
+        }
+      })
+
+      .state('app.qr', {
+        url: "/qr/:ticketId",
+        views: {
+          'menuContent': {
+            templateUrl: "views/app/qr-code.html",
+            controller: 'qrCodeController'
+          }
+        }
+      })
+
 
   .state('app.settings', {
     url: "/settings",
@@ -111,7 +129,7 @@ angular.module('tickitup', [
         views: {
           'shop-restaurante': {
             templateUrl: "views/app/shop/shop-restaurante.html",
-            controller: 'shopRestauranteController'
+            controller: 'shopRestaurantesController'
           }
         }
       })

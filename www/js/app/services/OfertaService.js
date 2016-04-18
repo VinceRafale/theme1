@@ -1,6 +1,8 @@
 angular.module('tickitup')
     .factory('OfertaService',function($state, $http, $q, _){
 
+        var endpoint = 'http://ofertas-api-rest.herokuapp.com/api';
+
         //############################################
         // Init
         //############################################
@@ -9,33 +11,81 @@ angular.module('tickitup')
         //############################################
         // Functions
         //############################################
+
+        /**
+         * Revisa la version db externa con la local
+         * @returns {boolean}
+         */
         
-        OfertaService.getOfertas = function (){
-            var dfd = $q.defer();
-            $http.get('databases/ofertas.json').success(function(database){
-                dfd.resolve(database.ofertas);
-            });
-            return dfd.promise;
+
+        //############################################
+        // Remote calls
+        //############################################
+
+        /**
+         * Traer las ofertas del DB remoto
+         * @returns {Promise}
+         */
+        OfertaService.getOfertasRemote = function(){
+            //var currentClient = ClienteService.getLoggedClient();
+            //var ofertas = $http.get(endpoint+'/ofertas?access_token='+currentClient.accessToken);
+            return $http.get(endpoint+'/ofertas');
+            //return $http.get('http://www.json-generator.com/api/json/get/cvCYZEHVOW?indent=2');
+        }
+
+        //############################################
+        // Local Calls
+        //############################################
+
+        /**
+         * Guardar ofertas en local
+         * @param data - Json con ofertas
+         */
+        OfertaService.saveOfertas= function(data){
+            window.localStorage.setItem("ofertas" , data);
         }
 
         OfertaService.getOfertasCategoria = function (categoriaId){
             var dfd = $q.defer();
-            $http.get('databases/ofertas.json').success(function(database){
-                var products = _.filter(database.ofertas, function(oferta){return oferta.categoriaId == categoriaId})
-
+            var data = window.localStorage.getItem("ofertas");
+            //console.log(data);
+            if(data != null)
+                //console.log("dato no nulo")
+                var products = _.filter(JSON.parse(data), function(oferta){return oferta.categoriaId == categoriaId})
+                //console.log("productos: "+products)
                 dfd.resolve(products);
-            });
+            if(data == null)
+                console.log('data nulo');
             return dfd.promise;
+
+            // $http.get('databases/ofertas.json').success(function(database){
+            //     var products = _.filter(database.ofertas, function(oferta){return oferta.categoriaId == categoriaId})
+            //
+            //     dfd.resolve(products);
+            // });
+            // return dfd.promise;
         }
 
         OfertaService.getOferta = function(productId){
             var dfd = $q.defer();
-            $http.get('databases/ofertas.json').success(function(database) {
-                var product = _.find(database.ofertas, function(oferta){ return oferta.id == productId; });
-
+            var data = window.localStorage.getItem("ofertas");
+            if(data !=null)
+            {
+                var product = _.find(JSON.parse(data), function(oferta){return oferta.id == productId;});
                 dfd.resolve(product);
-            });
+            }
+            if(data==null)
+                console.log('data nulo');
             return dfd.promise;
+
+
+            // var dfd = $q.defer();
+            // $http.get('databases/ofertas.json').success(function(database) {
+            //     var product = _.find(database.ofertas, function(oferta){ return oferta.id == productId; });
+            //
+            //     dfd.resolve(product);
+            // });
+            // return dfd.promise;
         }
 
 

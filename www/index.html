@@ -8,8 +8,10 @@
 
     <title></title>
 
-    <!-- Librerias del theme1 -->
+    <!-- Librerias -->
     <link href="css/ionic.app.css" rel="stylesheet">
+
+    <script src="lib/qrcode.js"></script>
     <script src="lib/ionic/js/ionic.bundle.js"></script>
     <script src="lib/underscore/underscore-min.js"></script>
     <script src="lib/moment/moment.js"></script>
@@ -17,8 +19,6 @@
     <script src="lib/angular-ios9-uiwebview-patch/angular-ios9-uiwebview-patch.js"></script>
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
-
-    <!-- Librerias nuestras -->
 
     <!-- App.js -->
     <script src="js/app.js"></script>
@@ -42,6 +42,9 @@
     <script src="js/app/controllers/shopElectrodomesticosController.js"></script>
     <script src="js/app/controllers/shopRestaurantesController.js"></script>
     <script src="js/app/controllers/shopSaludController.js"></script>
+    <script src="js/app/controllers/misComprasController.js"></script>
+    <script src="js/app/controllers/qrCodeController.js"></script>
+
 
     <!-- Nuestros services -->
     <script src="js/app/services/OfertaService.js"></script>
@@ -51,6 +54,9 @@
 
     <!-- Nuestros models -->
     <script src="js/app/models/ClienteModel.js"></script>
+    <script src="js/app/models/CategoriaModel.js"></script>
+    <script src="js/app/models/OfertaModel.js"></script>
+    <script src="js/app/models/TicketModel.js"></script>
 
 
     <!-- Nuestros services -->
@@ -58,6 +64,9 @@
 
     <!-- Nuestros directives -->
     <script src="js/app/directives/logoutDirective.js"></script>
+    <script src="js/app/directives/qrCodeDirective.js"></script>
+
+
 
   </head>
   <body ng-app="tickitup">

@@ -8,7 +8,7 @@ angular.module('tickitup.common.directives', [])
 			helperClass: '@'
 		},
 		controller: function($scope, $element, $attrs) {
-			$scope.loaded = false;
+			$scope.loaded = false;	
 			var utils = this;
 
 			this.animateBg = function(){

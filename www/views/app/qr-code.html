@@ -1,0 +1,21 @@
+<ion-view view-title="Tiquete" class="qr-view">
+  <ion-nav-buttons side="secondary">
+    <button class="button button-icon button-clear ion-share"></button>
+  </ion-nav-buttons>
+  <ion-content overflow-scroll="true">
+    <p></p>
+    <div class="product-card-content">
+      <div class="item item-image">
+        <pre-img ratio="_1_1" helper-class="main-image">
+          <qrcode version="8" error-correction-level="L" size="200" data="{{'Costo: '+ticket.costoTotal+' || Validado: '+ticket.validado+' || Número de Personas: '+ticket.numPersonas}}"></qrcode>
+          <!--<qrcode text="prueba123" color-bright="#ff0000"></qrcode>-->
+        </pre-img>
+      </div>
+      <div class="item item-body">
+        <h2 class="product-title">{{"Para canjear tu compra, presenta este tiquete en el lugar de la promoción!"}}</h2>
+        <p class="product-price">Precio del tiquete: ${{ticket.costoTotal}}</p>
+        <p class="product-price">Válido para: {{ticket.numPersonas}} personas</p>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
