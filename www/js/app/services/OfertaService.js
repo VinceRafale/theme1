@@ -1,7 +1,7 @@
 angular.module('tickitup')
     .factory('OfertaService',function($state, $http, $q, _,ClienteService){
 
-        var endpoint = 'http://ofertas-api-rest.herokuapp.com/api';
+        //var endpoint = 'http://ofertas-api-rest.herokuapp.com/api';
 
         //############################################
         // Init
@@ -29,7 +29,6 @@ angular.module('tickitup')
          */
         OfertaService.getOfertasRemote = function(){
             var currentClient = ClienteService.getLoggedClient();
-            console.log(currentClient.accessToken);
             var ofertas = $http.get(endpoint+'/ofertas?access_token='+currentClient.accessToken);
             return ofertas;
             //return $http.get(endpoint+'/ofertas');
@@ -119,10 +118,9 @@ angular.module('tickitup')
 
 
         OfertaService.buyTickets = function( jsonBody ){
-            return $http.post(endpoint + '/oferta/buyTickets?access_token='+currentClient.accessToken, jsonBody);
+            return $http.post(endpoint + '/ofertas/buyTickets?access_token='+currentClient.accessToken, jsonBody);
         };
 
         return OfertaService;
         
-
     });
