@@ -1,0 +1,44 @@
+{
+  "ofertas": [
+    {
+      "id":0,
+      "precio": 100,
+      "fecha_inicio": "2014-03-12T00:00:00.000Z",
+      "fecha_final": "2017-03-12T00:00:00.000Z",
+      "tickets_disponibles": 40,
+      "abierta":true,
+      "flyer":"http://res.cloudinary.com/dbxwbutmm/image/upload/v1457309189/8.jpg",
+      "categoriaId": 1
+    },
+    {
+      "id":1,
+      "precio": 80,
+      "fecha_inicio": "2014-03-12T00:00:00.000Z",
+      "fecha_final": "2017-03-12T00:00:00.000Z",
+      "tickets_disponibles": 98,
+      "abierta":true,
+      "flyer":"http://res.cloudinary.com/dbxwbutmm/image/upload/v1457309181/33.jpg",
+      "categoriaId": 2
+    },
+    {
+      "id":2,
+      "precio": 142,
+      "fecha_inicio": "2014-03-12T00:00:00.000Z",
+      "fecha_final": "2017-03-12T00:00:00.000Z",
+      "tickets_disponibles": 150,
+      "abierta":true,
+      "flyer":"http://res.cloudinary.com/dbxwbutmm/image/upload/v1457309177/51.jpg",
+      "categoriaId": 3
+    },
+    {
+      "id":3,
+      "precio": 201,
+      "fecha_inicio": "2014-03-12T00:00:00.000Z",
+      "fecha_final": "2017-03-12T00:00:00.000Z",
+      "tickets_disponibles": 131,
+      "abierta":true,
+      "flyer":"http://res.cloudinary.com/dbxwbutmm/image/upload/v1457309177/49.jpg",
+      "categoriaId": 4
+    }
+  ]
+}

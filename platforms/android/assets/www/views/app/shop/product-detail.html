@@ -1,0 +1,25 @@
+<ion-view view-title="" class="product-view">
+  <ion-nav-buttons side="secondary">
+    <button class="button button-icon button-clear ion-share"></button>
+  </ion-nav-buttons>
+  <ion-content overflow-scroll="true">
+    <div class="product-card-content">
+      <div class="item item-image">
+        <pre-img ratio="_1_1" helper-class="main-image">
+          <img ng-src="{{oferta.flyer}}" spinner-on-load>
+        </pre-img>
+      </div>
+      <div class="item item-body">
+        <h2 class="product-title">{{"Esta oferta esta disponible hasta: "+oferta.fecha_final}}</h2>
+        <div>
+          <p class="product-like"><i class="icon ion-pricetags"></i>Tickets Disponibles</p>
+          <p class="likes"></i>{{oferta.tickets_disponibles}}</p>
+        </div>
+        <p class="product-price" ng-click="showAddToCartPopup(oferta)">${{oferta.precio}}</p>
+      </div>
+      <div class="item item-body">
+        <p class="product-description">{{"Esta oferta abrió en: "+oferta.fecha_inicio}}</p>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

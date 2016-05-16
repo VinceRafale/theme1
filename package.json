@@ -1,17 +1,18 @@
 {
-  "name": "ionTheme_1",
+  "name": "TickitUp",
   "version": "1.2.1",
-  "description": "ionTheme_1: An Ionic project",
+  "description": "TickitUp: Aplicación para compra de ofertas",
   "dependencies": {
     "angular": "^1.5.3",
     "angular-stripe": "^4.2.12",
-    "async": "^1.4.0",
+    "async": "^1.5.2",
     "bower": "^1.3.3",
     "gulp": "^3.5.6",
     "gulp-angular-templatecache": "^1.5.0",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-util": "^2.2.14",
+    "jshint": "^2.9.1",
     "require-dir": "^0.3.0",
     "shelljs": "^0.3.0"
   },

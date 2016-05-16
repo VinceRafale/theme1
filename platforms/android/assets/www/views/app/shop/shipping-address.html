@@ -1,0 +1,51 @@
+<ion-view view-title="Credit Cards" class="shipping-address-view">
+  <ion-content>
+    <div class=" shop-section-title"><span class="title-copy"><h4>SELECT YOUR DEFAULT CARD</h4></span>
+
+      <ion-list ng-repeat="cardString in myCards">
+          <ion-radio>
+            <div class="item-icon-left">
+              <i class="icon ion-card"></i>{{cardString}}
+            </div>
+          </ion-radio>
+      </ion-list>
+
+
+    <div class=" shop-section-title"><span class="title-copy">  <a class="item add-new-card item-icon-left" ng-click="chgCardFormState()">
+      <i class="icon ion-android-add-circle"></i>
+      New Card
+    </a></span>
+
+      <div class="list" ng-hide="!cardFormState">
+        <form name="payment-cc-form">
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Card Number</span>
+            <input type="text" size="20" placeholder=Number ng-model="cardData.number">
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">CVC</span>
+            <input type="text" placeholder="CVC" ng-model="cardData.cvc">
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Expiration Month</span>
+            <input type="text" size="2" placeholder="Expiration Month" ng-model="cardData.exp_month">
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Expiration year</span>
+            <input type="text" size="4" placeholder="Expiration Year" ng-model="cardData.exp_year">
+          </label>
+          <div class="item">
+            <button type="submit" class="button button-block button-energized save-address-btn"
+                    ng-click="doCreateNewCard()">
+              Save Card
+            </button>
+          </div>
+        </form>
+      </div>
+
+
+    </div>
+
+
+  </ion-content>
+</ion-view>

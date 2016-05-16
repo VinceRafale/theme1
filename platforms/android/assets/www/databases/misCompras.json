@@ -1,0 +1,28 @@
+{
+  "compras": [
+    {
+      "id":0,
+      "costoTotal": 100,
+      "numPersonas": 10,
+      "validado":true
+    },
+    {
+      "id":1,
+      "costoTotal": 12,
+      "numPersonas": 10,
+      "validado":false
+    },
+    {
+      "id":2,
+      "costoTotal": 29,
+      "numPersonas": 10,
+      "validado":true
+    },
+    {
+      "id":3,
+      "costoTotal": 44,
+      "numPersonas": 10,
+      "validado":false
+    }
+  ]
+}
